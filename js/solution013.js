@@ -1,4 +1,4 @@
-const XO = (str) => {
+const XO = (string) => {
   let x = [];
   let o = [];
 
