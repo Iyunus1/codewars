@@ -1,6 +1,6 @@
 function createPhoneNumber(numbers){
     let format = '(xxx) xxx-xxxx'
-    numbers.map((num) => format = format.replace('x', num))
+    numbers.forEach((num) => format = format.replace('x', num))
     return format;
 }
 
