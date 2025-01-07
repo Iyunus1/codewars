@@ -1,0 +1,1 @@
+const greet = word => "hello world!"
