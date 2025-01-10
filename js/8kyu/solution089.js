@@ -1,10 +1,7 @@
-
-const countSheep = (num) => {
-    let string = "";
+const countSheep = function (num){
+    let string = "" ;
     for(let i = 1; i <= num; i++){
-        string += `${i} sheep...`
+        string += i + " sheep..."
     }
-    return string
+  return string
 }
-
-console.log(countSheep(3))
